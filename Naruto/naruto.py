@@ -11,8 +11,7 @@ import os
 MAIN_PATH = os.getcwd()
 IMG_PATH  = os.path.join(MAIN_PATH, 'naruto-images')
 CHPT_PATH = os.path.join(MAIN_PATH, 'naruto-chapters')
-# path = 
-# path2 = 
+
 def make_path(path):    
     
     try:
