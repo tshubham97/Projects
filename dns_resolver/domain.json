@@ -1,0 +1,90 @@
+{
+  "google.com": {
+    "A": [
+      "216.58.203.46"
+    ],
+    "AAAA": [
+      "2404:6800:4009:80f::200e"
+    ],
+    "NS": [
+      "ns2.google.com."
+    ],
+    "SOA": [
+      "ns1.google.com.",
+      "dns-admin.google.com.",
+      "304870938",
+      "900",
+      "900",
+      "1800",
+      "60"
+    ],
+    "MX": [
+      "20",
+      "alt1.aspmx.l.google.com."
+    ],
+    "TXT": [
+      "\"v=spf1",
+      "include:_spf.google.com",
+      "~all\""
+    ]
+  },
+  "baidu.com": {
+    "A": [
+      "39.156.69.79"
+    ],
+    "NS": [
+      "ns4.baidu.com."
+    ],
+    "SOA": [
+      "dns.baidu.com.",
+      "sa.baidu.com.",
+      "2012142279",
+      "300",
+      "300",
+      "2592000",
+      "7200"
+    ],
+    "MX": [
+      "20",
+      "jpmx.baidu.com."
+    ],
+    "TXT": [
+      "\"v=spf1",
+      "include:spf1.baidu.com",
+      "include:spf2.baidu.com",
+      "include:spf3.baidu.com",
+      "a",
+      "mx",
+      "ptr",
+      "-all\""
+    ]
+  },
+  "amazon.com": {
+    "A": [
+      "176.32.103.205"
+    ],
+    "NS": [
+      "pdns6.ultradns.co.uk."
+    ],
+    "SOA": [
+      "dns-external-master.amazon.com.",
+      "root.amazon.com.",
+      "2010124854",
+      "180",
+      "60",
+      "3024000",
+      "60"
+    ],
+    "MX": [
+      "5",
+      "amazon-smtp.amazon.com."
+    ],
+    "TXT": [
+      "\"spf2.0/pra",
+      "include:spf1.amazon.com",
+      "include:spf2.amazon.com",
+      "include:amazonses.com",
+      "-all\""
+    ]
+  }
+}
